@@ -59,7 +59,13 @@ Provide your analysis in the following strict JSON format, without markdown or e
         body: JSON.stringify(payload)
       });
       
-      const data = await res.json();
+      const text = await res.text();
+      let data;
+      try {
+        data = JSON.parse(text);
+      } catch (err) {
+        throw new Error("Production Server Error: " + text.substring(0, 100) + "... (Make sure your Vercel deployment is finished building!)");
+      }
       
       if (!res.ok || data.error) {
         // Enforce specific 429 logic
