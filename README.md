@@ -2,7 +2,7 @@
 
 > **AI diagnostic tool that identifies why consumer app users drop off during onboarding — and gives PMs two specific, testable experiments to fix it.**
 
-🔗 **[Live Demo](#)** *(add Vercel URL here after deploy)* &nbsp;|&nbsp; Built by [Prerna Singh](https://linkedin.com/in/prernasingh925) — Product Manager, AI & Enterprise Platforms
+🔗 **[Live Demo](https://onboarding-friction-finder.vercel.app)** &nbsp;|&nbsp; Built by [Prerna Singh](https://linkedin.com/in/prernasingh925) — Product Manager, AI & Enterprise Platforms
 
 ---
 
